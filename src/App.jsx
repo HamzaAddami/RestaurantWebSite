@@ -16,15 +16,15 @@ const App = () => {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/success" element={<ProtectedRoute element={<Success />} />} />
+        <Route path="/RestaurantWebSite/" element={<Home />} />
+        <Route path="/RestaurantWebSite/success" element={<ProtectedRoute element={<Success />} />} />
         <Route path="/*" element={<Error />} />
-        <Route path='/login' element={<Login/>}/>
-        <Route path='/signup' element={<SignUp/>}/>
-        <Route path="/home" element={<Home />} /> 
-        <Route path="/dishes" element={<FoodItems/>}/>
-        <Route path="/checkout" element={<Checkout />}/>
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path='/RestaurantWebSite/login' element={<Login/>}/>
+        <Route path='/RestaurantWebSite/signup' element={<SignUp/>}/>
+        <Route path="/RestaurantWebSite/home" element={<Home />} /> 
+        <Route path="/RestaurantWebSite/dishes" element={<FoodItems/>}/>
+        <Route path="/RestaurantWebSite/checkout" element={<Checkout />}/>
+        <Route path="/RestaurantWebSite/cart" element={<Cart/>}/>
       </Routes>
     </BrowserRouter>
     </>
