@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.cdnfonts.com/css/oh-beloved');
+@import url('https://fonts.cdnfonts.com/css/edu-sa-beginner');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: 'oh beloved', sans-serif;
+                                                
+}
+* {
+  font-family: "Edu SA Beginner", sans-serif;
+}
+body {
+  background: rgb(244, 244, 244);
+}
+#Nav {
+  font-size: 25px;
+  font-weight: 100;
+}
